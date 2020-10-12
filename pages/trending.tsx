@@ -6,10 +6,7 @@ import { StyleSheet, Text, View } from 'react-native'
 export default function App() {
   return (
     <View style={styles.container}>
-        <Link href='trending'>
-            <Text style={styles.text}>click for trending</Text>
-        </Link>
-      
+      <Text style={styles.text}>Welcome to Expo + Next.js 👋</Text>
     </View>
   )
 }
