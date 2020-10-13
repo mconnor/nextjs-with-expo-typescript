@@ -6,7 +6,11 @@ import { StyleSheet, Text, View } from 'react-native'
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Welcome to Expo + Next.js 👋</Text>
+        <Text>Trending Page</Text>
+        <Link href='./'>
+            <Text style={styles.text}>Back to Index👋</Text>
+        </Link>
+      
     </View>
   )
 }
